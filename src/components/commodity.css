@@ -1,0 +1,55 @@
+.coin-data{
+    border: 1px solid transparent;
+    padding: 10px;
+    align-items: start;
+    transition: transform .2s;
+    margin: 30px 10px 15px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;}
+.coin-data:hover{
+     transform: scale(1.1);
+}
+.market h3{
+    color: #059473;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.coin-data svg{
+    color: #059473;
+    width: 30px;
+    height: 27px;
+}
+.coin-data h6{
+    color: seagreen;
+    font-weight: 600;
+    padding-left: 19px;
+    padding-top: 8px;
+}
+.gain ul{
+    padding: 0px;
+    border-bottom: 1px solid black;
+    color: #059473;
+}
+.gain ul li{
+    padding: 15px 30px 10px 0px;
+
+}
+.gain-table table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid;
+  }
+  .gain-table th{
+    background-color:#059473;
+    border-bottom: 1px solid  ;
+    padding: 11px 11px 11px 11px;
+    box-shadow: none;
+    text-align: center;
+    font-weight: bold;
+
+  }
+ .gain-table td {
+    padding: 11px 11px 11px 11px ;
+    border-bottom: 1px solid;
+  }
+  
+  .gain-table tr:nth-child(even) {background-color: #ddd;}

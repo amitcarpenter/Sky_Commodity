@@ -1,0 +1,10 @@
+@media only screen and (min-width: 280px) and (max-width: 778px) {
+
+    .order_change {
+        order: 2;
+    }
+
+    .order_change2 {
+        order: 1;
+    }
+}

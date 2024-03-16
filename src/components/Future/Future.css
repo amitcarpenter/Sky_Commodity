@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Spectral:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+
+.future h1 {
+  font-size: 2.5rem;
+  font-family: 'Spectral', serif;
+  color: white;
+  margin-top: 190px;
+}
+
+.future p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+
+.future_img {
+  width: 400px;
+  height: 400px;
+  margin-top: 100px;
+  margin: 70px;
+}
+
+.icons_img {
+  margin-top: 20px;
+  width: 350px;
+  height: 300px;
+  margin-bottom: 60px;
+}
+
+.icon_img img {
+  margin-top: 20px;
+  width: 350px;
+  height: 350px;
+  margin-left: 120px;
+  margin-bottom: 60px;
+}
+
+
+
+.leverage h2 {
+  font-family: 'Jost', sans-serif !important;
+  padding: 40px 40px 0px 40px;
+  font-size: 2rem;
+  color: rgb(8, 8, 8);
+
+}
+
+.leverage p {
+  font-family: 'Jost', sans-serif !important;
+  font-size: 1rem;
+  color: black;
+  padding: 10px;       
+  line-height: 30px;
+}
+
+
+
+.flexibility h2 {
+  font-family: 'Jost', sans-serif !important;
+  padding: 40px 40px 0px 40px;
+  font-size: 2rem;
+  color: black;
+}
+
+.flexibility p {
+  font-family: 'Jost', sans-serif !important;
+  font-size: 1rem;
+  color: black;
+  line-height: 30px;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 993px) {
+  .flexibility{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+  }
+  .features-future .image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+  }
+  .leverage {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+  } 
+
+  
+}
+@media only screen and (max-width: 992px) {
+  .future h1 {
+    margin-top: 15px;
+    font-size: 2rem;
+  }
+
+  .icons_img {
+    margin-left: 120px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .future h1 {
+    margin-top: 15px;
+    font-size: 2rem;
+  }
+
+  .icons_img {
+    margin-left: 120px;
+  }
+}
+
+
+
+@media only screen and (max-width: 640px) {
+  .future h1 {
+    margin-top: 15px;
+    font-size: 2rem;
+  }
+
+  .future p {
+    font-size: 0.9rem;
+  }
+
+  .future_img {
+    width: 400px;
+    height: 400px;
+    margin: 0px;
+  }
+
+  .icons_img {
+    width: 350px;
+    height: 350px;
+    margin: 0px;
+
+  }
+
+  .icon_img img {
+
+    width: 350px;
+    height: 350px;
+    margin: 0px;
+  }
+
+  .image-container img {
+    width: 100%;
+    /* Make the image fill the container */
+    display: block;
+  }
+
+
+
+
+  .leverage h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .leverage p {
+    font-size: 1rem;
+  }
+
+  .flexibility h2 {
+    font-size: 1.5rem;
+  }
+
+  .flexibility p {
+    font-size: 1rem;
+  }
+
+  .flexibility {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .features-future .image {
+    min-height: auto;
+  }
+
+}
+
+
+
+.services .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 0 10px 20px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  height: 170px;
+}
+
+.services .icon-box:hover {
+  transform: translateY(-5px);
+}
+
+.services .icon {
+  position: absolute;
+  left: 8px;
+  top: calc(50% - 30px);
+}
+
+.services .icon svg {
+  font-size: 54px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+.services .title {
+  margin-left: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 19px;
+}
+
+.services .title a {
+  color: #111;
+  text-transform: capitalize;
+}
+
+.services .icon-box:hover .title a {
+  color: #49b5e7;
+}
+
+.services .description {
+  font-size: 17px;
+  margin-left: 40px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+
+.features-future {
+  padding-top: 20px;
+}
+
+.features-future .icon-box {
+  padding: 15px;
+  background-color: white;
+
+}
+
+.features-future .icon-box:hover {
+  color: white;
+  background-color: #1eb2a6;
+}
+
+.features-future .icon-box h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.features-future .icon-box p {
+  font-size: 17px;
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+    /* Adjust the distance for the upward movement */
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.image-container {
+  animation: moveUpDown 3s infinite;
+  /* Adjust the animation duration as needed */
+}
+
+
+
+
+

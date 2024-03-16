@@ -1,0 +1,13 @@
+.logo {
+  width: 250px;
+  height: 66px;
+}
+
+.navbar-brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggler-icon:focus {
+  outline: none !important;
+}

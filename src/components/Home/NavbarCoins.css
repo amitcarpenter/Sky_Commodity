@@ -1,0 +1,48 @@
+
+
+.navbarcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iconscolor {
+    font-size: 2rem;
+    color: #ffff;
+    margin-right: 0.5rem;
+}
+
+.search {
+    color: black;
+}   
+
+.navbar-link {
+    text-decoration: none;
+  }
+
+
+
+  .top-curve {
+    position: absolute;
+    top: 0;
+    height: 50px; /* Adjust the height to control the curve */
+    width: 100%;
+    background-color: transparent; /* Set the background color to match your page's background */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.top-curve.left {
+    left: 0;
+    border-right: 50px solid transparent; /* Adjust the width of the curve */
+}
+
+.top-curve.right {
+    right: 0;
+    border-left: 50px solid transparent; /* Adjust the width of the curve */
+}
+
+
+
+
+

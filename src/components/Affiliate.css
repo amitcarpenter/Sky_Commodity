@@ -1,0 +1,252 @@
+:root {
+
+    --h1-color: darkblue;
+    --p-color: blueviolet;
+
+}
+
+.affiliate_hero h1 {
+ 
+    font-family: 'Spectral', serif;
+    color: var(--h1-color);
+}
+
+.affiliate_hero h3 strong {
+    background: linear-gradient(to right, #f32170, #ff6b08,
+            #cf23cf, #eedd44);
+    /* -webkit-text-fill-color: transparent;
+             -webkit-background-clip: text; */
+    font-family: 'Spectral', serif;
+
+
+}
+
+.affiliate_hero h3 {
+    color: var(--p-color);
+    font-size: 1.6rem;
+    font-family: 'Spectral', serif;
+}
+
+.affiliate_hero p {
+    color: var(--h1-color);
+    font-family: 'EB Garamond', serif;
+    font-size: 1.2rem;
+}
+
+.affiliate_hero .affiliateBtn,
+.affiliateBtn {
+    margin-top: 20px;
+    border-radius: 50px;
+    max-width: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 10px 20px;
+    color: #ffffff;
+    background: linear-gradient(45deg, #3e19ff 0%, #903eff 100%);
+    box-shadow: 0px 7px 13px 0px rgb(153 99 255 / 59%);
+    transition: all 0.3s linear;
+}
+
+.affiliate_hero .affiliateBtn:hover,
+.affiliateBtn:hover {
+    color: #ffffff;
+    background: linear-gradient(45deg, #903eff 0%, #3e19ff 100%);
+    transition: all 0.3s linear;
+}
+
+.reffer-content {
+    padding-top: 60px;
+
+}
+
+.reffer-div {
+    background-color: #171531;
+    /* width: 100%; */
+    border: 1px solid #2d295e;
+    padding: 20px 30px;
+    border-radius: 25px;
+
+}
+
+.reffer-div:hover {
+    background-color: #5b2ed9;
+    transition: all 0.5 ease-out;
+    cursor: pointer;
+    transition-duration: 2s;
+
+}
+
+/* .reffer-circle{
+
+} */
+
+.reffer-heading {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.reffer-para {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2rem;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+
+.affiliate-incom-trade {
+    background-color: #903eff;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+
+
+
+.affiliate_income {
+    padding-top: 60px;
+}
+
+.affiliate_income span {
+    font-size: 2rem;
+    font-family: 'Spectral', serif;
+    color: var(--h1-color);
+}
+
+.affiliate_income p {
+  
+    color: var(--p-color);
+    font-family: 'EB Garamond', serif;
+   
+
+}
+
+.income p {
+    color: var(--p-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 0px;
+}
+
+.income h6 {
+    font-family: 'Spectral', serif;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    color: var(--h1-color);
+}
+
+
+.why_affiliate h1 {
+    color: var(--h1-color);
+    margin-top: 110px;
+    font-family: 'Spectral', serif;
+ 
+}
+
+.why_affiliate span {
+    font-size: 1.4rem;
+    font-family: 'EB Garamond', serif;
+    color: white;
+    padding-top: 20px;
+}
+
+.why_affiliate p {
+    margin-top: 0px;
+    color: #c6c5c9;
+    font-family: 'EB Garamond', serif;
+  
+
+}
+
+.why_affiliate h3 {
+    color: white;
+    font-weight: bold;
+    /* font-size: 2rem; */
+    /* padding-top: 90px; */
+
+    font-family: 'Spectral', serif;
+
+}
+
+/* .why-affiliate__box {
+    background-color: #903eff;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 60px;
+} */
+
+.inner-box-affiliate {
+    background: linear-gradient(45deg, #3e19ff 0%, #903eff 100%);
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 12px -1px rgba(224, 197, 224, 1);
+}
+
+.inner-box-affiliate:hover {
+    background: linear-gradient(45deg, #903eff 0%, #3e19ff 100%);
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    box-shadow: none;
+}
+
+
+
+
+/* ----------------------- Extra  small devices (0px to 575px) ------------------------- */
+@media (min-width: 1px) and (max-width: 480px) {
+
+    .affiliate_hero h1 {
+        /* margin-top: 30px; */
+        font-size: 1.3rem;
+    }
+
+    .affiliate_hero h3 {
+        font-size: 1.1rem;
+    }
+
+    .affiliate_hero p {
+        font-size: 1rem;
+    }
+
+    .affiliate_hero .affiliateBtn,
+    .affiliateBtn {
+        font-size: 1rem;
+        margin-top: 15px;
+        padding: 5px 10px;
+    }
+
+
+
+    .affiliate__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+/* ----------------------------------section 1st ------------------- */
+
+.reffer-circle{
+    padding: 10px 30px;
+}
+.reffer-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.reffer-para {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.3rem;
+    padding: 10px 8px;
+    text-align: center;
+}
+
+
+}

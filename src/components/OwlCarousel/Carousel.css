@@ -1,0 +1,166 @@
+  .content{
+    margin-top: 20px;
+  }
+  
+  /* .image{
+    height: 140px;
+    width:140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #07198f;
+
+} */
+
+ .image img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 50%;
+   border: 3px solid #fff;
+
+}
+
+.card{
+    background-color: rgb(28, 206, 215) !important;
+    border-radius: 20px 20px 10px 10px !important;
+    position: relative !important;
+}
+
+
+.card::before{
+
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: #07198f;
+    border-radius: 20px 20px 0 0;
+}
+
+.check-icon{
+position: absolute;
+top: 10px;
+right: 20px;
+color: #fff;
+}
+
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+}
+.CoinDetails{
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: center;
+    align-items: center;
+}
+
+.CoinDetails .Coin-name{
+    font-size: 0.5rem;
+    font-weight: bold;
+    font-family: 'spectral';
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.CoinDetails .price{
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-family: 'open sans';
+    padding-top: 5px;
+}
+.CoinDetails .highlited-price-Green{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #414F12;
+    font-family: 'open sans';
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.CoinDetails .highlited-price-Red{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #CD0000;
+    font-family: 'open sans';
+    padding-top: 5px;
+    padding-bottom: 10px;
+   
+}
+.bullet{
+    margin-top: 5px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #07198f;
+}
+
+.Trade-btnS{
+  
+   background: #07198f;
+   border-right: 4px solid #dc3545;
+   
+   border-radius: 30px;
+   /* padding: 5px 15px; */
+   color: #fff;
+   font-weight: 500;
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+
+.Trade-btnS:hover{
+    background: #040f52;
+   
+}
+
+.trade-now .arrow{
+    color: #fff;
+    left:0;
+    /* padding-left: 5px; */
+}
+
+
+
+
+/*====================== media section =============================*/
+
+
+/* ----------------------- WideScreens xxl (1400px) ------------------------- */
+@media only screen and (max-width: 1400px) {
+
+
+}
+/* ----------------------- Desktops and laptops (1200px) ------------------------- */
+@media only screen and (max-width: 1200px) {
+
+
+}
+
+/* ----------------------- Tablet And ipads(992px) ------------------------- */
+
+@media only screen and (max-width: 992px) {
+  
+
+}
+
+/* ----------------------- Mobile phones (768px) ------------------------- */
+
+@media only screen and (max-width: 786px) {
+
+
+}
+
+/* ----------------------- small devices (576px) ------------------------- */
+@media only screen and (max-width: 576px) {
+
+
+}

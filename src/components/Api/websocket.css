@@ -1,0 +1,141 @@
+.web_hero input{
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #999;
+    height: 50px;
+    padding-left: 40px;
+    padding-right: 20px;
+    width: 60%;
+    border: 1px solid #ffff;
+    margin-bottom: 70px;
+    margin-top: 10px; 
+}
+.web_hero h1{
+    /* margin-top: 60px; */
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 300;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: 'Spectral', serif;
+}
+.web h6{
+    width: 298px;
+    border-radius: 0px;
+    background-color: transparent;
+    height: 45px;
+    border-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 25px;
+    font-family: 'Spectral';
+    transition: all 0.5s;
+    gap: 2rem;
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+.web{
+    width: 300px;
+    height: 784px;
+    border: 1px solid black;
+    margin-top: 100px;
+    background-color: rgba(0, 7, 61);
+    margin-bottom: 10px;
+}
+.web button{
+    width: 298px;
+    border-radius: 0px;
+    background-color: transparent;
+    height: 35px;
+    border-color: transparent;
+    color: white;
+    font-size: 0.9rem;
+    text-align: left;
+    padding-left: 25px;
+    font-family: 'Spectral';
+    transition: all 0.5s;
+    gap: 2rem;
+    
+}
+.web button:hover, .web button:focus{
+    border-color: #0d6efd;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+    color: white;
+}
+#button_active{
+    border-color: #0d6efd;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+    color: white;
+}
+.socket h2{
+    margin-top: 100px;
+    color: darkblue;
+    font-family: 'Spectral';
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+/* .socket h5{
+    margin-top: 30px;
+    color: darkblue;
+    font-family: 'Spectral';
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+} */
+.socket h3{
+    margin-top: 30px;
+    color: darkblue;
+    font-family: 'Spectral';
+    font-size: 1.4rem;
+}
+.socket p{
+    color: blue;  
+    font-family: 'Spectral';
+    font-size: 1rem;
+    line-height: 2rem;
+}
+ 
+
+
+
+/* @media only screen and (max-width: 640px){
+    .web{
+        display: none;
+    }
+    .socket h2{
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .socket h2{
+        display: none;
+    }
+    .socket h3{
+        display: none;
+    }
+    .socket h5{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .web{
+        display: none;
+    }
+    .socket h2{
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .socket h2{
+        display: none;
+    }
+    .socket h3{
+        display: none;
+    }
+    .socket h5{
+        display: none;
+    }
+}
+
+
+
+ */

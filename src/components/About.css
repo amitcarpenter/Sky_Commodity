@@ -1,0 +1,337 @@
+/* .about_hero{
+  
+
+} */
+.about_hero h1 {
+  font-family: 'Spectral', serif;
+
+}
+
+.about_product h1 {
+  /* margin-top: 60px; */
+  font-size: 1.8rem;
+  font-family: 'Spectral', serif;
+  color: white;
+  margin-bottom: 30px;
+
+}
+
+.product {
+  padding: 36px;
+}
+
+.circle-product {
+  width: 80px;
+  height: 80px;
+  background-color: #059473;
+  border-radius: 50%;
+}
+
+.circle-product:hover {
+  color: #ff5e14;
+}
+
+.about_product h3 {
+  color: #ff5e14;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Spectral', serif;
+
+
+}
+
+.product:hover h3 {
+
+  background: #059473;
+  background-size: 200%, 100%;
+  background-position: 100%;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: .5s;
+  /* color: #059473; */
+  cursor: pointer;
+
+
+}
+
+.text-yellow {
+  color: white;
+}
+
+.product:hover .text-yellow {
+
+  color: #ff5e14;
+  background: none;
+
+
+}
+
+
+.about_product p {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.about_value h1 {
+  margin-top: 60px;
+
+  font-family: 'Spectral', serif;
+
+  margin-bottom: 30px;
+
+}
+
+.about_value h3 {
+  color: #059473;
+  font-size: 1.2rem;
+  font-family: 'Spectral', serif;
+  /* text-align: center;  */
+
+
+}
+
+.about_value p {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+
+  font-size: 1rem;
+  text-align: justify;
+
+}
+
+
+
+.view-btn {
+  /* margin-top: 20px;
+    border-radius: 50px;
+    max-width: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 10px 20px;
+    color: #ffffff;
+    background: linear-gradient(45deg, #3e19ff 0%, #903eff 100%);
+    box-shadow: 0px 7px 13px 0px rgb(153 99 255 / 59%);
+    transition: all 0.3s linear; */
+  color: white;
+  background: #ff5e14;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  padding: 12px 30px;
+  font-size: 19px;
+  z-index: 1;
+  position: relative;
+}
+
+.view-btn:hover {
+  /* color: #ffffff;
+    background: linear-gradient(45deg, #903eff 0%, #f1f0f7 100%);
+    transition: all 0.3s linear; */
+  filter: drop-shadow(5px 5px 12px #000);
+}
+
+.main-card {
+  background: linear-gradient(45deg, #e7e7ea 10%, #903eff 10%);
+  border-radius: 10px 10px 10px 10px;
+  padding: 0px 0px 34px 0px;
+
+}
+
+.img-w-img {
+  position: relative;
+
+  border-radius: 10px;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.anchor-text {
+  text-decoration: none;
+  color: #25CBD3;
+}
+
+.anchor-text:hover {
+  text-decoration: none;
+  color: #25CBD3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-sec .about-img {
+  min-height: 500px;
+}
+
+.about-sec h3 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.about-sec .call-us {
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  background-color: #fff;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  text-align: center;
+}
+
+.about-sec .call-us h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+
+}
+
+.about-sec .call-us p {
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+}
+
+.about-sec .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-sec .content ul li {
+  padding: 0 0 8px 26px;
+  position: relative;
+}
+
+.about-sec .content ul svg {
+  position: absolute;
+  font-size: 20px;
+  left: 0;
+  top: 2px;
+  color: #059473;
+}
+
+.about-sec .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about-sec .play-btn {
+  width: 94px;
+  height: 94px;
+  background: radial-gradient(#059473 50%, rgba(206, 18, 18, 0.4) 52%);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: calc(50% - 47px);
+  top: calc(50% - 47px);
+  overflow: hidden;
+}
+
+.about-sec .play-btn:before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  animation-delay: 0s;
+  animation: pulsate-btn 2s;
+  animation-direction: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius: 50%;
+  border: 5px solid rgba(206, 18, 18, 0.7);
+  top: -15%;
+  left: -15%;
+  background: rgba(198, 16, 0, 0);
+}
+
+.about-sec .play-btn:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 100;
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.about-sec .play-btn:hover:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 200;
+  animation: none;
+  border-radius: 0;
+}
+
+.about-sec .play-btn:hover:after {
+  border-left: 15px solid #ff5e14;
+  transform: scale(20);
+}
+
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 778px) {
+
+  .order_change {
+    order: 2;
+  }
+
+  .order_change2 {
+    order: 1;
+  }
+
+  .padding-wrap{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 779px) {
+  /* Add your CSS rules here that should be applied for screens with a maximum width of 779px */
+  .padding-wrap{
+    padding-top: 45px !important;
+    padding-bottom: 45px !important;
+  }
+}
