@@ -3,9 +3,12 @@ import { Container } from "react-bootstrap";
 import { Row, Col } from "react-bootstrap";
 import "./Footer.css";
 
+import GoogleStore from "../components/assets/google-store-btn.png";
+// import skyapk from "../../public/Sky_commodity.apk";
+
 import { Link } from "react-router-dom";
 import { CiLocationOn } from "react-icons/ci";
-import android from "../components/Iconaasets/android-app.png";
+// import android from "../components/Iconaasets/android-app.png";
 import log_x from "../components/Iconaasets/Asset-5-x.png";
 const Footer = () => {
   return (
@@ -23,9 +26,7 @@ const Footer = () => {
                 Registration no.: INZ000049235 CDSL/NSDL: Depository services
                 through SKY Broking Ltd. Commodity Trading through SKY
                 Commodities Pvt. Ltd. MCX:46365; NSE-90221 – SEBI Registration
-                no.: INZ000049235 Registered Address: SKY Broking Ltd.,
-                40-41,first floor visha tower Coimbatore ,641001, Tamilnadu
-                india. For any complaints please write to
+                no.: INZ000049235.
               </span>
 
               {/* <div class="social-links d-flex mt-4">
@@ -99,9 +100,9 @@ const Footer = () => {
 
               <p className="mt-4 text-xl font-semibold">
                 Download The App
-                <Link to="/">
-                  <img className="w-44 mt-3" src={android} alt="" />
-                </Link>
+                <a href="./Sky_commodity.apk" download>
+                  <img className="w-44 mt-3" src={GoogleStore} alt="" />
+                </a>
               </p>
             </div>
 
@@ -113,15 +114,17 @@ const Footer = () => {
                   <CiLocationOn className=" text-white" />
                 </span>
                 <p className="sm:ml-3">
-                  A108 Adam Street <br />
-                  New York, NY 535022
-                  <br />
+                  SKY Broking Ltd., 40-41,first floor visha tower Coimbatore
+                  ,641001, Tamilnadu india
+                  {/* A108 Adam Street <br />
+                  New York, NY 535022 */}
+                  {/* <br />
                   United States <br />
                   <br />
                   <strong>Phone:</strong> +1 5589 55488 55
                   <br />
                   <strong>Email:</strong> info@example.com
-                  <br />
+                  <br /> */}
                 </p>
               </div>
             </div>
