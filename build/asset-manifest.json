@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ac53cb6a.css",
-    "main.js": "/static/js/main.bb910334.js",
+    "main.js": "/static/js/main.40d15727.js",
     "static/media/ShareMarket.mp4": "/static/media/ShareMarket.474457cee82231842db6.mp4",
     "static/media/International.jpg": "/static/media/International.e4caf424174e88c8d39c.jpg",
     "static/media/advace-img.jpg": "/static/media/advace-img.7c8135e93721e02b658d.jpg",
@@ -69,10 +69,10 @@
     "static/media/arrow_left.svg": "/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
     "main.ac53cb6a.css.map": "/static/css/main.ac53cb6a.css.map",
-    "main.bb910334.js.map": "/static/js/main.bb910334.js.map"
+    "main.40d15727.js.map": "/static/js/main.40d15727.js.map"
   },
   "entrypoints": [
     "static/css/main.ac53cb6a.css",
-    "static/js/main.bb910334.js"
+    "static/js/main.40d15727.js"
   ]
 }

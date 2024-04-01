@@ -691,8 +691,7 @@ const Home = () => {
                 <div className="invest__content flex justify-center items-center flex-column">
                   <h2 className="invest__account-heading">Create an account</h2>
                   <p className="invest__account-para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Consectetur, iste?
+                    Open your Instant Demate account Within a 2hrs
                   </p>
                 </div>
               </div>
@@ -710,8 +709,7 @@ const Home = () => {
                     Link your bank account
                   </h2>
                   <p className="invest__account-para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Consectetur, iste?
+                    Link Your Bank Account Instant
                   </p>
                 </div>
               </div>
@@ -729,8 +727,7 @@ const Home = () => {
                     Start buying & selling
                   </h2>
                   <p className="invest__account-para">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Consectetur, iste?
+                    Learn with our company,How to Buy And Sell
                   </p>
                 </div>
               </div>
