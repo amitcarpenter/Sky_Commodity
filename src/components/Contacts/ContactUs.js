@@ -127,21 +127,25 @@ const ContactUs = () => {
                 <div className="address">
                   <MdLocationPin />
                   <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>SKY Broking Ltd., 40-41,first floor
+                    visha tower Coimbatore
+                    ,641001, Tamilnadu india</p>
                 </div>
-                <div className="email">
+                {/* <div className="email">
                   <MdEmail />
                   <h4>Email:</h4>
                   <p>info@example.com</p>
-                </div>
-                <div className="phone">
+                </div> */}
+                {/* <div className="phone">
                   <MdCall />
                   <h4>Call:</h4>
                   <p>+1 5589 55488 55s</p>
-                </div>
+                </div> */}
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47969423.5528496!2d33.825476660327894!3d42.7921283335593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd17a4db1f47%3A0x9233987981cbf1e3!2sChetak%20Center%2C%20RNT%20Marg%2C%20Near%20Hotel%20Shreemaya%2C%20South%20Tukoganj%2C%20Indore%2C%20Madhya%20Pradesh%20452001!5e0!3m2!1sen!2sin!4v1689671366579!5m2!1sen!2sin"
-                  frameBorder="0"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6586.632859283194!2d76.9521774079552!3d11.005934345004034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8590251815095%3A0x7c7f146f65865076!2sSky%20Broking%20(Head%20Office)!5e0!3m2!1sen!2sin!4v1712054884053!5m2!1sen!2sin"
+
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
                   style={{ border: "0", width: "100%", height: "290px" }}
                   allowFullScreen=""
                 ></iframe>
@@ -162,9 +166,8 @@ const ContactUs = () => {
                       render={({ field }) => (
                         <input
                           type="text"
-                          className={`form-control ${
-                            formErrors.name ? " border-red-500 " : ""
-                          }`}
+                          className={`form-control ${formErrors.name ? " border-red-500 " : ""
+                            }`}
                           {...field}
                         />
                       )}
@@ -182,9 +185,8 @@ const ContactUs = () => {
                       render={({ field }) => (
                         <input
                           type="email"
-                          className={`form-control ${
-                            formErrors.email ? " border-red-500 " : ""
-                          }`}
+                          className={`form-control ${formErrors.email ? " border-red-500 " : ""
+                            }`}
                           {...field}
                         />
                       )}
@@ -202,9 +204,8 @@ const ContactUs = () => {
                     render={({ field }) => (
                       <input
                         type="text"
-                        className={`form-control ${
-                          formErrors.subject ? " border-red-500 " : ""
-                        }`}
+                        className={`form-control ${formErrors.subject ? " border-red-500 " : ""
+                          }`}
                         {...field}
                       />
                     )}
@@ -220,9 +221,8 @@ const ContactUs = () => {
                     control={control}
                     render={({ field }) => (
                       <textarea
-                        className={`form-control ${
-                          formErrors.message ? " border-red-500 " : ""
-                        }`}
+                        className={`form-control ${formErrors.message ? " border-red-500 " : ""
+                          }`}
                         rows="10"
                         {...field}
                       />
